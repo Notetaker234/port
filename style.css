@@ -1,0 +1,247 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1c1c1c;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    padding: 0 2rem;
+}
+
+#home .intro {
+    max-width: 50%;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#home h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+#home p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    color: #ccc;
+}
+
+#home .profile-pic img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+    box-shadow: #ddd 1px 2px;
+}
+
+@media (min-width: 768px) {
+    #home {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    #home .intro {
+        max-width: 50%;
+        padding-right: 2rem;
+    }
+
+    #home .profile-pic {
+        max-width: 40%;
+    }
+}
+
+.logo img
+{
+    height: 40px;
+}
+
+#about {
+    padding: 2rem;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+
+#projects {
+    padding: 2rem;
+    background-color: #121212;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-card {
+    background-color: #1c1c1c;
+    padding: 1rem;
+    border-radius: 5px;
+    width: calc(33% - 2rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    color: #e65c00;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    padding: 2rem;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-form h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e65c00;
+}

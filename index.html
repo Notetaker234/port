@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="https://imgs.search.brave.com/_86k5hxmF0ZvNvYPACg0o03tZhi7u21PTA7nOloEUM4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9weXRob24t/aWNvbi0yNTR4MjU2/LWNjcHdmdHhiLnBu/Zw" alt=""></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fas fa-times"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>HI, I'M Aadarsh</h1>
+            <h2>I'M A PYTHON DEVOLOPER</h2>
+            <pre>Want to Know More ! Here are my projects</pre>
+
+            <button class="btn">View Projects</button>
+        </div>
+        <div class="profile-pic">
+            <img src="WhatsApp Image 2024-07-25 at 00.16.07_86954256.jpg" alt="Profile Picture">
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Voice Assistant with Gemini</h3>
+                <p>A voice controlled voice assistant with extra features.</p>
+                <a href="#">View More</a>
+            </div>
+            <div class="project-card">
+                <h3>Chat with Data</h3>
+                <p>Chat with csv,pdf,text with llm and pandas AI</p>
+                <a href="#">View More</a>
+            </div>
+            
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="scripts.js"></script>
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <form class="contact-form">
+                <h3>Contact Me</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
